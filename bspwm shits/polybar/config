@@ -10,7 +10,7 @@
 
 [colors]
 ;background = ${xrdb:color0}
-background = #00000000
+background = #1d1f21
 background-alt = #444
 foreground = ${xrdb:color7}
 ;foreground = #dfdfdf
@@ -48,12 +48,12 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = mono:pixelsize=9;1
+font-0 = JetBrains Mono:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:style=Regular:pixelsize=9;2
-font-3 = Font Awesome 5 Free:pixelsize=9;2
-font-4 = Font Awesome 5 Free Solid:pixelsize=9;2
-font-5 = Font Awesome 5 Brands:pixelsize=9;2
+font-2 = siji:style=Regular:pixelsize=10;2
+font-3 = Font Awesome 5 Free:pixelsize=10;2
+font-4 = Font Awesome 5 Free Solid:pixelsize=10;2
+font-5 = Font Awesome 5 Brands:pixelsize=10;2
 
 #modules-left = i3
 modules-left = bspwm xwindow mpd
@@ -377,9 +377,9 @@ ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
