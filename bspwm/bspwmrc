@@ -2,7 +2,7 @@
 
 #picom -f &
 lxpolkit &
-#nitrogen --restore &
+nitrogen --restore &
 $HOME/.config/polybar/launch.sh 
 
 

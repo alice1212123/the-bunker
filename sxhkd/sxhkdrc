@@ -128,3 +128,14 @@ XF86AudioRaiseVolume
 XF86AudioMute
         amixer set Master toggle
 
+
+
+
+
+#discord 
+super + d
+  discord 
+
+#steam
+super + s 
+  steam 
