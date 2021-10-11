@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run
+	rofi -combi-modi window,drun,ssh -theme Arc-Dark -show combi -font "SF Mono 12"
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -120,22 +120,10 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-#volume control 
+#volume control
 XF86AudioLowerVolume
 	amixer set Master 5%-
 XF86AudioRaiseVolume
 	amixer set Master 5%+
 XF86AudioMute
         amixer set Master toggle
-
-
-
-
-
-#discord 
-super + d
-  discord 
-
-#steam
-super + s 
-  steam 
