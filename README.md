@@ -1,5 +1,5 @@
 # the-bunker
-config files for shit
+config files for shit (old af i dont use these) 
 
 # BSPWM Packages:
 yay -S polybar nerd-fonts-sf-mono bspwm alacritty sxhkd picom nitrogen lxsession pipewire-pulse alsa-utils pipewire base-devel rofi lxappearance noto-fonts ttf-nerd-fonts-symbols
